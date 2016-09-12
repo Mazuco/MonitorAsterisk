@@ -62,7 +62,7 @@ for i in `ls`; do
 		tmp=`cat /tmp/Mtmp.txt | grep Len`
 		duracao=`echo $tmp | cut -d: -f2`
     	rm /tmp/Mtmp.txt 
-    echo "insert into Ligacoes (ramal,data_ligacao,arquivo,numero,duracao,bk) values ($ramal,'$dataL','$arquivo','$numero',$duracao,0)"  | mysql MLigacao -u root -pmaster
+    echo "insert into Ligacoes (ramal,data_ligacao,arquivo,numero,duracao,bk) values ('$ramal','$dataL','$arquivo','$numero','$duracao',0)"  | mysql MLigacao -u root -pmaster
 	fi
 done
 ```
