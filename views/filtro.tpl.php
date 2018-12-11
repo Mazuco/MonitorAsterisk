@@ -8,7 +8,7 @@
 <div id="tudo">
 <form id="contactform" class="rounded" method="post" action="index.php">
 <input type="hidden" name="opt" value="ligacoes">
-<h2>Filtro Ligações</h2>
+<h2>Filtro LigaÃ§Ãµes</h2>
  
 <div class="field">
   <label for="name">Ramal:</label>
@@ -28,7 +28,7 @@
   <option value="0">Todos </option>
   <option value="1">Janeiro </option>
   <option value="2">Fevereiro </option>
-  <option value="3">Março </option>
+  <option value="3">MarÃ§o </option>
   <option value="4">Abril </option>
   <option value="5">Maio </option>
   <option value="6">Junho </option>
@@ -47,11 +47,11 @@
 <div class="field">
   <label for="name">ano:</label>
   <select class="input" name="ano">
-  <option value="2016">2016 </option>
-  <option value="2017">2017 </option>
   <option value="2018">2018 </option>
   <option value="2019">2019 </option>
   <option value="2020">2020 </option>
+  <option value="2021">2021 </option>
+  <option value="2022">2022 </option>
   </select>
 </div>
  
