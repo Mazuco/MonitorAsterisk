@@ -12,8 +12,8 @@
 			<tr>
 				<th>Ramal</th>
 				<th>Data Ligação</th> 
-				<th>Audio</th>
-				<th>Numero</th>
+				<th>Áudio</th>
+				<th>Número</th>
 				<th>Duração (segundos)</th>
 			</tr>
 <?php 
