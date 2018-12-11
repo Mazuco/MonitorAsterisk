@@ -11,10 +11,10 @@
 		<table style="width:100%">
 			<tr>
 				<th>Ramal</th>
-				<th>Data Ligação</th> 
+				<th>Data LigaÃ§Ã£o</th> 
 				<th>Audio</th>
 				<th>Numero</th>
-				<th>Duração (segundos)</th>
+				<th>DuraÃ§Ã£o (segundos)</th>
 			</tr>
 <?php 
 
@@ -27,7 +27,7 @@ foreach ($dados[0] as $ligacao) {
 				<td>
 				<audio controls>
   					<source src="audio/<?php echo $ligacao->getArquivo();?>" type="audio/wav">
-					O seu navegador nao suporta esse topo de audio
+					O seu navegador nao suporta esse tipo de audio
 				</audio>
 				</td>
 				<td><?php echo $ligacao->getNumero(); ?></td>
